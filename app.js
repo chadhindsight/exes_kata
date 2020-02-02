@@ -1,8 +1,8 @@
 function XO(str) {
-    let o = str.match(/o/gi);
-    let x = str.match(/x/gi);
+    let O = str.match(/o/gi);
+    let X = str.match(/x/gi);
     
-    return (x && x.length) === (o && o.length);
+    return (X && X.length) === (O && O.length);
 }
 
 console.log(XO('xodoxx'));
